@@ -1,4 +1,4 @@
-<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\sfa\assets\css\APlayer.min.css"><script src="\sfa\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\sfa\assets\js\Meting.min.js"></script>!(function() {
+<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\sci-fic-fan-fic-alliance\assets\css\APlayer.min.css"><script src="\sci-fic-fan-fic-alliance\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\sci-fic-fan-fic-alliance\assets\js\Meting.min.js"></script>!(function() {
     function update() {
       var now = new Date();
       var grt = new Date("2021-01-20 00:00:00");  /** 此处是计时的起始时间 **/
