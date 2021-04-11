@@ -20,7 +20,7 @@
   <meta name="description" content="给岁月以文明而不是给文明以岁月">
   <meta name="author" content="S&amp;F">
   <meta name="keywords" content="科幻作品展">
-  <title>归档 - S&amp;F官网</title>
+  <title>S&amp;F官网</title>
 
   <link  rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" />
 
@@ -59,7 +59,7 @@
 
 
 <body>
-  <header style="height: 60vh;">
+  <header style="height: 100vh;">
     <nav id="navbar" class="navbar fixed-top  navbar-expand-lg navbar-dark scrolling-navbar">
   <div class="container">
     <a class="navbar-brand"
@@ -170,13 +170,17 @@
       <div class="full-bg-img">
         <div class="mask flex-center" style="background-color: rgba(0, 0, 0, 0.3)">
           <div class="page-header text-center fade-in-up">
-            <span class="h2" id="subtitle" title="归档">
+            <span class="h2" id="subtitle" title="S&F科幻/奇幻同盟会【Sci-Fic/Fan-Fic Alliance】">
               
             </span>
 
             
           </div>
 
+          
+            <div class="scroll-down-bar">
+              <i class="iconfont icon-arrowdown"></i>
+            </div>
           
         </div>
       </div>
@@ -187,30 +191,74 @@
     
       <div class="container nopadding-x-md">
         <div class="py-5" id="board"
-          >
+          style=margin-top:0>
           
           <div class="container">
             <div class="row">
               <div class="col-12 col-md-10 m-auto">
                 
 
-<div class="list-group">
-  <p class="h4">共计 11 篇文章</p>
-  <hr>
-  
-  
+
+  <div class="row mx-auto index-card">
     
-      
-      <p class="h5">2021</p>
     
-    <a href="/sci-fic-fan-fic-alliance/NO.8/" class="list-group-item list-group-item-action">
-      <span class="archive-post-title">NO.8闭环</span>
-      <time style="float: right;">04-04</time>
-    </a>
-  
-</div>
+      <div class="col-12 col-md-4 m-auto index-img">
+        <a href="/sci-fic-fan-fic-alliance/NO.1/" target="_self">
+          <img src="https://cdn.jsdelivr.net/gh/zyf-42/jpg@1.0/f3.jpg" srcset="/sci-fic-fan-fic-alliance/img/loading.gif" alt="NO.1唤醒">
+        </a>
+      </div>
+    
+    <article class="col-12 col-md-8 mx-auto index-info">
+      <h1 class="index-header">
+        
+        <a href="/sci-fic-fan-fic-alliance/NO.1/">NO.1唤醒</a>
+      </h1>
+
+      <p class="index-excerpt">
+        <a href="/sci-fic-fan-fic-alliance/NO.1/">
+          
+          
+            
+          
+          逆熵主教的第一篇文章。
+        </a>
+      </p>
+
+      <div class="index-btm post-metas">
+        
+          <div class="post-meta mr-3">
+            <i class="iconfont icon-date"></i>
+            <time datetime="2020-12-05 20:06" pubdate>
+              2020-12-05
+            </time>
+          </div>
+        
+        
+          <div class="post-meta mr-3">
+            <i class="iconfont icon-category"></i>
+            
+              <a href="/sci-fic-fan-fic-alliance/categories/%E9%80%86%E7%86%B5%E4%B8%BB%E6%95%99/">逆熵主教</a>
+            
+          </div>
+        
+        
+      </div>
+    </article>
+  </div>
 
 
+
+  <nav aria-label="navigation">
+    <span class="pagination" id="pagination">
+      <a class="extend prev" rel="prev" href="/sci-fic-fan-fic-alliance/"><i class="iconfont icon-arrowleft"></i></a><a class="page-number" href="/sci-fic-fan-fic-alliance/">1</a><span class="page-number current">2</span>
+    </span>
+  </nav>
+  
+  <script>
+    for (ele of document.getElementById("pagination").getElementsByTagName("a")) {
+      ele.href += '#board';
+    }
+  </script>
 
 
 
